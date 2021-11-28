@@ -13,6 +13,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
   favicon: 'img/favicon.ico',
   organizationName: 'Chia-Network', // Usually your GitHub org/user name.
   projectName: 'chia-docs', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'cn'],
+  },
 
   presets: [
     [
@@ -50,6 +54,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
           {href: 'https://chialisp.com/', label: 'Chialisp', position: 'left'},
           {href: 'https://www.chia.net/blog/', label: 'Blog', position: 'left'},
           {href: 'https://www.chia.net/assets/Chia-Business-Whitepaper-2021-02-09-v1.0.pdf', label: 'Business Whitepaper', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'left',
+          },
           {
             href: 'https://github.com/Chia-Network/chia-docs',
             label: 'Edit Docs on GitHub',

@@ -1,33 +1,75 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Decentralized',
+    title:  (
+      <>
+      {
+        translate({
+          id:"homepage.Dec",
+          message:"Decentralized"
+        })
+      }
+      </>
+    ),
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        The Chia network has more full nodes than any other blockchain, and allows anyone to participate in farming from their home, with just a hard drive.
+      {
+        translate({
+          id:"homepage.Decentralized",
+          message:"The Chia network has more full nodes than any other blockchain, and allows anyone to participate in farming from their home, with just a hard drive."
+        })
+      }
       </>
     ),
   },
   {
-    title: 'Environmentally Friendly',
+    title: (
+      <>
+      {
+        translate({
+          id:"homepage.EF",
+          message:"Environmentally Friendly"
+        })
+      }
+      </>
+    ),
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-      Proof of Space and Time as a consensus mechanism uses less than 1% of the electricity that Bitcoin uses.
+      {
+        translate({
+          id:"homepage.EFriendly",
+          message:"Proof of Space and Time as a consensus mechanism uses less than 1% of the electricity that Bitcoin uses."
+        })
+      }
       </>
     ),
   },
   {
-    title: 'Powerful',
+    title:  (
+      <>
+      {
+        translate({
+          id:"homepage.Pf",
+          message:"Powerful"
+        })
+      }
+      </>
+    ),
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-      The Chialisp programming language and blockchain environment allows developers to make extremely powerful
-      and secure decentralized apps, than can never be stopped.
+      {
+        translate({
+          id:"homepage.Powerful",
+          message:"The Chialisp programming language and blockchain environment allows developers to make extremely powerfuland secure decentralized apps, than can never be stopped."
+        })
+      }
       </>
     ),
   },

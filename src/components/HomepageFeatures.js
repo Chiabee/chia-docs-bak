@@ -1,32 +1,75 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Secure',
-    Svg: require('../../static/img/shield-lock.svg').default,
+    title:  (
+      <>
+      {
+        translate({
+          id:"homepage.Dec",
+          message:"Decentralized"
+        })
+      }
+      </>
+    ),
+    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Chia is the most decentralized blockchain ever with approximately 350,000 nodes employing the first new Nakamoto Consensus since 2009. The Chialisp on chain programming environment is fully featured while being far more auditable, and secure.
+      {
+        translate({
+          id:"homepage.Decentralized",
+          message:"The Chia network has more full nodes than any other blockchain, and allows anyone to participate in farming from their home, with just a hard drive."
+        })
+      }
       </>
     ),
   },
   {
-    title: 'Compliant',
-    Svg: require('../../static/img/check-badge.svg').default,
+    title: (
+      <>
+      {
+        translate({
+          id:"homepage.EF",
+          message:"Environmentally Friendly"
+        })
+      }
+      </>
+    ),
+    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-      Chia believes that in order to deliver on the promise of the next generation blockchains, we must be regulatory compliant. It is our stated goal to become a public reporting company subject to the Securities Act of 1933. Chia's native currency, XCH or chia, has never been sold by Chia Network for money and we believe it will be regulated as a commodity by the CFTC.
+      {
+        translate({
+          id:"homepage.EFriendly",
+          message:"Proof of Space and Time as a consensus mechanism uses less than 1% of the electricity that Bitcoin uses."
+        })
+      }
       </>
     ),
   },
   {
-    title: 'Sustainable',
-    Svg: require('../../static/img/recycle.svg').default,
+    title:  (
+      <>
+      {
+        translate({
+          id:"homepage.Pf",
+          message:"Powerful"
+        })
+      }
+      </>
+    ),
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-      With its innovative Proof Of Space and Time consensus, Chia uses 0.16% of the annual energy consumption of Bitcoin, and 0.36% of Ethereum. Chia is part of the Circular Drive Initiative that reduces e-waste through the secure reuse of storage, promoting the second use of hard drives for Chia farming.
+      {
+        translate({
+          id:"homepage.Powerful",
+          message:"The Chialisp programming language and blockchain environment allows developers to make extremely powerfuland secure decentralized apps, than can never be stopped."
+        })
+      }
       </>
     ),
   },

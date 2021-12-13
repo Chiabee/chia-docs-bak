@@ -9,7 +9,7 @@ const FeatureList = [
       <>
       {
         translate({
-          id:"homepage.Dec",
+          id:"feature1",
           message:"Decentralized"
         })
       }
@@ -20,7 +20,7 @@ const FeatureList = [
       <>
       {
         translate({
-          id:"homepage.Decentralized",
+          id:"detail1",
           message:"The Chia network has more full nodes than any other blockchain, and allows anyone to participate in farming from their home, with just a hard drive."
         })
       }
@@ -32,7 +32,7 @@ const FeatureList = [
       <>
       {
         translate({
-          id:"homepage.EF",
+          id:"feature2",
           message:"Environmentally Friendly"
         })
       }
@@ -43,7 +43,7 @@ const FeatureList = [
       <>
       {
         translate({
-          id:"homepage.EFriendly",
+          id:"detail2",
           message:"Proof of Space and Time as a consensus mechanism uses less than 1% of the electricity that Bitcoin uses."
         })
       }
@@ -55,7 +55,7 @@ const FeatureList = [
       <>
       {
         translate({
-          id:"homepage.Pf",
+          id:"feature3",
           message:"Powerful"
         })
       }
@@ -66,7 +66,7 @@ const FeatureList = [
       <>
       {
         translate({
-          id:"homepage.Powerful",
+          id:"detail3",
           message:"The Chialisp programming language and blockchain environment allows developers to make extremely powerfuland secure decentralized apps, than can never be stopped."
         })
       }

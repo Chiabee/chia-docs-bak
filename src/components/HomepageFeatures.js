@@ -10,18 +10,18 @@ const FeatureList = [
       {
         translate({
           id:"feature1",
-          message:"Decentralized"
+          message:"Secure"
         })
       }
       </>
     ),
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/shield-lock.svg').default,
     description: (
       <>
       {
         translate({
           id:"detail1",
-          message:"The Chia network has more full nodes than any other blockchain, and allows anyone to participate in farming from their home, with just a hard drive."
+          message:"Chia is the most decentralized blockchain ever with approximately 350,000 nodes employing the first new Nakamoto Consensus since 2009. The Chialisp on chain programming environment is fully featured while being far more auditable, and secure."
         })
       }
       </>
@@ -33,18 +33,18 @@ const FeatureList = [
       {
         translate({
           id:"feature2",
-          message:"Environmentally Friendly"
+          message:"Compliant"
         })
       }
       </>
     ),
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/check-badge.svg').default,
     description: (
       <>
       {
         translate({
           id:"detail2",
-          message:"Proof of Space and Time as a consensus mechanism uses less than 1% of the electricity that Bitcoin uses."
+          message:"Chia believes that in order to deliver on the promise of the next generation blockchains, we must be regulatory compliant. It is our stated goal to become a public reporting company subject to the Securities Act of 1933. Chia's native currency, XCH or chia, has never been sold by Chia Network for money and we believe it will be regulated as a commodity by the CFTC."
         })
       }
       </>
@@ -56,18 +56,18 @@ const FeatureList = [
       {
         translate({
           id:"feature3",
-          message:"Powerful"
+          message:"Sustainable"
         })
       }
       </>
     ),
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/recycle.svg').default,
     description: (
       <>
       {
         translate({
           id:"detail3",
-          message:"The Chialisp programming language and blockchain environment allows developers to make extremely powerfuland secure decentralized apps, than can never be stopped."
+          message:"With its innovative Proof Of Space and Time consensus, Chia uses 0.16% of the annual energy consumption of Bitcoin, and 0.36% of Ethereum. Chia is part of the Circular Drive Initiative that reduces e-waste through the secure reuse of storage, promoting the second use of hard drives for Chia farming."
         })
       }
       </>
